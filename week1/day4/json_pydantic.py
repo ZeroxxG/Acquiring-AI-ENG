@@ -38,7 +38,7 @@ message_system = {
 text = "hello My name " \
 "is Hammad. I have an iphone which is not working at all. My address is Lucknow. My email is abc@gmail. My phone number is 82134"
 prompt = f"""
-This is a cutomer ticket. please extract the personal information from this.
+This is a customer ticket. please extract the personal information from this.
 {text}
 """
 
@@ -59,7 +59,6 @@ print(answer)
 
 
 # isko padhte kaise hai
-
 import json
 raw_json = answer
 data_file=json.loads(answer)
@@ -67,7 +66,6 @@ ticket = Ticket(**data_file)
 
 print(ticket.name)
 print(ticket.email)
-print(ticket.issue)
 print(ticket.issue)
 
 

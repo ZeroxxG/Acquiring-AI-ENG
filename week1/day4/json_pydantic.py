@@ -68,6 +68,7 @@ ticket = Ticket(**data_file)
 print(ticket.name)
 print(ticket.email)
 print(ticket.issue)
+print(ticket.issue)
 
 
 # Homework:

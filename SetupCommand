@@ -3,7 +3,7 @@ uv init FolderName             # Create a Folder
 cd FolderName                  # Go inside the folder  
 code FileName.py               # Create a file
 uv venv --python 3.11          # Install python version 
-.venv\Scripts\activate.ps1     # Activate virtual environmnt
+.venv\Scripts\activate.ps1     # Activate virtual environmnt (ps1 for powershell)
 uv add groq python-dotenv      # Install groq and .env packages
 
 "openai/gpt-oss-20b" 
